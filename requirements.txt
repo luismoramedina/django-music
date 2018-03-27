@@ -1,0 +1,11 @@
+Django==1.10
+djangorestframework==3.4
+django-filter==0.13.0
+django-crispy-forms==1.6.0
+django-rest-swagger==2.0.5
+pep8
+pylint
+arrow==0.8.0
+gunicorn==19.7.1
+ipython
+raven

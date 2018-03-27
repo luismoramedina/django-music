@@ -1,0 +1,19 @@
+= Simple django admin site for music
+
+== Run
+
+```sh
+virtualenv -p python3 envmusic
+source envmusic/bin/activate
+pip3 install -r requirements.txt
+python3 manage.py migrate # creates database
+python3 manage.py createsuperuser # creates an admin user
+python3 manage.py runserver # runs server
+localhost:8000/admin
+```
+
+== Manage database
+
+```sh
+sqlite3 db.sqlite3
+```
